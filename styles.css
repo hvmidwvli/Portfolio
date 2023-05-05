@@ -1,0 +1,230 @@
+:root {
+  --primary-color: #1C1C1C;
+  --secondary-color: #B574A9;
+  --tertiary-color: #070707;
+  --text-color-2: #AFAFAF;
+  --text-color: #FFFEFF;
+}
+
+h1 {
+  color: var(--text-color) !important;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#footer {
+  margin-top: 50px;
+  padding: 3% 15%;
+  background-color: #070707;
+  text-align: center;
+}
+
+.body-element {
+  background-color: var(--primary-color) !important;
+  color: var(--text-color-2);
+  font-family: 'Barlow', sans-serif;
+}
+
+#top-container {
+  background-color: #070707;
+}
+
+/* NAVIGATION BAR */
+
+.nav-custom {
+  background-color: var(--tertiary-color);
+}
+
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+.nav-link {
+  color: var(--text-color) !important;
+}
+
+/* MAIN INFO */
+
+.main-info {
+  padding: 5% 20%;
+  align-items: center;
+  /* center vertically */
+}
+
+.pp-div {
+  margin: 20px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  #profile-pic {
+    float: left;
+    width: 175px;
+    height: 175px;
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+.obj-statement-h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.main-name {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+
+.obj-statement-p {
+  font-size: calc(0.65rem + .2vw);
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color: #ededed;
+  border-radius: 22px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  margin-right: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background-color: #dfdfdf;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* GRADIENT */
+
+#diagonal-section {
+  position: relative;
+  background: linear-gradient(to bottom right, #070707 50%, #1c1c1c 50%);
+}
+
+#diagonal-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: skewY(-5deg);
+  transform-origin: 0;
+  background-color: #070707;
+}
+
+.gradient {
+  position: relative;
+  z-index: -1;
+  background-color: #1c1c1c;
+  padding: 50px;
+}
+
+/* SKILLS COLUMNS */
+
+
+#skills {
+  padding: 0;
+}
+
+.skills {
+  display: flex;
+  padding: 0;
+}
+
+
+.skills-header {
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-heading {
+  color: var(--text-color);
+  font-family: 'Rubik', sans-serif;
+  font-size: calc(1.5rem + .6vw);
+  font-weight: 500;
+  padding: 7% 10% 0;
+}
+
+.underline-img {
+  margin: 0 9.75% 7%;
+  height: 10%;
+  width: 12%;
+}
+
+.skills-row1 {
+  width: 50%;
+  padding: 0 4% 3% 8%;
+}
+
+.skills-row2 {
+  width: 50%;
+  padding: 0 8% 3% 4%;
+}
+
+.skill-item {
+  padding: 2%;
+}
+
+/* SKILL ITEMS' CONTENTS */
+
+.sk-title {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  color: var(--secondary-color);
+  display: inline-block;
+  padding: 0 1.5% 1%;
+}
+
+.sk-description {
+  font-size: calc(0.65rem + 0.2vw);
+}
+
+.sk-icon {
+  color: var(--secondary-color);
+  float: left;
+  margin: 0.25% 1% 0 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 40
+}
