@@ -75,8 +75,8 @@ li {
 @media screen and (min-width: 768px) {
   #profile-pic {
     float: left;
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
     margin: 20px;
     margin-bottom: 50px;
   }
@@ -96,14 +96,15 @@ li {
 
 .obj-statement-p {
   font-size: calc(0.65rem + .2vw);
+  overflow: hidden;
 }
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-  background-color: #ededed;
+  background: linear-gradient(to bottom, #ededed 5%, #B574A9 100%);
+  background-color: var(--secondary-color);
   border-radius: 22px;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #070707;
   display: inline-block;
   cursor: pointer;
   color: var(--primary-color);
@@ -160,12 +161,6 @@ li {
   padding: 0;
 }
 
-.skills {
-  display: flex;
-  padding: 0;
-}
-
-
 .skills-header {
   width: fit-content;
   height: fit-content;
@@ -187,18 +182,18 @@ li {
   width: 12%;
 }
 
-.skills-row1 {
-  width: 50%;
-  padding: 0 4% 3% 8%;
+.skills {
+  display: flex;
+  padding: 0;
 }
 
-.skills-row2 {
-  width: 50%;
-  padding: 0 8% 3% 4%;
+.skills-row {
+  padding: 0 7% 5% 7%;
 }
 
 .skill-item {
-  padding: 2%;
+  margin: 2.5% 0%;
+  padding: 0 3%;
 }
 
 /* SKILL ITEMS' CONTENTS */
