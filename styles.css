@@ -55,17 +55,17 @@ li {
 
 /* MAIN INFO */
 
+.main-info {
+  padding: 5% 20%;
+  align-items: center;
+  /* center vertically */
+}
+
 @media screen and (max-width: 768px) {
   .main-info {
     padding: 3% 7% !important;
     align-items: center;
   }
-}
-
-.main-info {
-  padding: 5% 20%;
-  align-items: center;
-  /* center vertically */
 }
 
 .pp-div {
