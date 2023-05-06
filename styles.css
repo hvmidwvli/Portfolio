@@ -55,6 +55,13 @@ li {
 
 /* MAIN INFO */
 
+@media screen and (max-width: 768px) {
+  .main-info {
+    padding: 3% 7% !important;
+    align-items: center;
+  }
+}
+
 .main-info {
   padding: 5% 20%;
   align-items: center;
@@ -185,13 +192,6 @@ li {
 .skills {
   display: flex;
   padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .skills-row {
-    display: flex;
-    padding: 0 4% 3% !important; 
-  }
 }
 
 .skills-row {
