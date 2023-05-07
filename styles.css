@@ -63,8 +63,12 @@ li {
 
 @media screen and (max-width: 768px) {
   .main-info {
-    padding: 3% 7% !important;
+    padding: 3% 7% 10% !important;
     align-items: center;
+  }
+
+  h1 {
+    font-size: smaller;
   }
 }
 
